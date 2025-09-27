@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main() {
+    int a,b,c,largest,smallest;
+    printf("ebter three numbers");
+    scanf("%d %d %d",&a,&b,&c);
+//finding largest value
+    if(a>=b && a>=c)
+        largest=a;
+    else if (b>=a && b>=c)
+        largest=b;
+    else
+        largest=c;
+
+//finding smallest
+    if(a<=b && a<=c)
+        smallest=a;
+    else if (b<=a && b<=c)
+        smallest=b;
+    else
+        smallest=c;
+
+    printf("largest value from all three given numbers %d\n", largest);
+    printf("smallest value from all three given numbers %d\n", smallest);
+    return 0;
+}
+
