@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-int i,num;
-int sum=0;
+int i,num,sum=0;
 float mean;
 
 printf("entre 10 values:\n");
