@@ -2,7 +2,7 @@
 int main (){
 int n,i;
 char name[50];
-printf("entre you name:");
+printf("enter you name:");
 scanf("%s",name);
 
 printf("entre how many times to print your name:");
