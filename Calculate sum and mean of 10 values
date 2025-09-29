@@ -3,7 +3,7 @@ int main(){
 int i,num,sum=0;
 float mean;
 
-printf("entre 10 values:\n");
+printf("enter 10 values:\n");
   for(i=1;i<=10;i++)
     {
       scanf("%d",&num);
