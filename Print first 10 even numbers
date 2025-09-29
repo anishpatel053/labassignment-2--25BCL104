@@ -5,7 +5,7 @@ int main() {
 
     printf("First 10 even numbers are:\n");
 
-    for (i = 0; i <= 20; i = i+2)
+    for (i = 0; i <= 18; i = i+2)
     {
         printf("%d\n", i);
     }
