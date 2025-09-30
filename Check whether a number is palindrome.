@@ -18,7 +18,7 @@ int main() {
         printf("The number is a Palindrome.\n");
     }
     else {
-        printf("The number is NOT a Palindrome.\n");
+        printf("The number is not a Palindrome.\n");
     }
 
     return 0;
